@@ -1,10 +1,5 @@
-body { 
-    
-   
-}
-
 #container {    
-    width: 100%;
+width: 100%;
 min-height: 100%;
 height: auto !important;
 position: fixed;
@@ -17,13 +12,20 @@ left:0;
 
   }
 
+
+
 #cat{
-        height: 400px;
-        background-image: url('img/large.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        bottom: 0px;
+	position: absolute;
+	bottom: 0px;
+	height: 600px;
+	background-image: url('img/large.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 98%;
+
+         
+
     }
 
 
